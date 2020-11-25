@@ -6,7 +6,7 @@ function start(){
 	tl.set(".frame1", {opacity:1})
 
 	setMask("#logo_trim")
-	starRange(1, 12, .1)
+	starRange(1, 12, .3)
 	TweenLite.to( ".star", 1, {opacity:1, delay:3} )
 
 	tl.from(".ball", .6, {y:"-=250", rotation:4, ease:Back.easeOut})

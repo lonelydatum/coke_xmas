@@ -215,6 +215,14 @@ sup {
   opacity: 0;
 }
 
+.star {
+  opacity: 0;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  image-rendering: -webkit-optimize-contrast;
+}
+
 .msk {
   overflow: hidden;
 }
@@ -294,13 +302,6 @@ sup {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-}
-
-.star {
-  opacity: 0;
-  -webkit-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
 }
 
 #star1 {

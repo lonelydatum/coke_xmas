@@ -41,11 +41,6 @@
 	@include pos(217, 180);
 }
 
-.star{
-	// border: 1px solid blue;
-	opacity: 0;
-	transform-origin: 50% 50%;
-}
 
 #star1{
 	@include pos-scale(-1, 25, .5);

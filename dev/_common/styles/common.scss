@@ -146,3 +146,10 @@ sup{
 	background-color: red;
 	opacity: 0;
 }
+
+.star{
+	// border: 1px solid blue;
+	opacity: 0;
+	transform-origin: 50% 50%;
+	image-rendering: -webkit-optimize-contrast;
+}

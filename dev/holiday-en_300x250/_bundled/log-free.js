@@ -67,7 +67,7 @@ function start() {
 	tl.set(".frame1", { opacity: 1 });
 
 	(0, _commonJsCommonJs.setMask)("#logo_trim");
-	(0, _commonJsCommonJs.starRange)(1, 12, .1);
+	(0, _commonJsCommonJs.starRange)(1, 12, .3);
 	TweenLite.to(".star", 1, { opacity: 1, delay: 3 });
 
 	tl.from(".ball", .6, { y: "-=250", rotation: 4, ease: Back.easeOut });
