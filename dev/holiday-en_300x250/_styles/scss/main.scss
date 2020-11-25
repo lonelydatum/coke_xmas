@@ -1,0 +1,111 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	opacity: 1;
+}
+.msk{
+	// background-color: blue;
+	overflow: hidden;
+}
+
+#t1a{
+	@include pos(0, 32);
+}
+
+#t1b{
+	@include pos(0, 62);
+}
+
+#cta{
+	@include pos(215, 187);
+	.cta{
+		@include pos-scale(0, 1, .5);
+	}
+	.chev{
+		@include pos-scale(67, 0, .5);
+	}
+}
+
+
+
+
+#t2a{
+	@include pos(0, 95);
+}
+
+#logo_trim{
+	@include pos(217, 180);
+}
+
+.star{
+	// border: 1px solid blue;
+	opacity: 0;
+	transform-origin: 50% 50%;
+}
+
+#star1{
+	@include pos-scale(-1, 25, .5);
+}
+
+#star2{
+	@include pos-scale(41, 2, .4);
+}
+#star3{
+	@include pos-scale(91, 9, .3);
+}
+
+#star4{
+	@include pos-scale(139, -3, .3);
+}
+
+#star5{
+	@include pos-scale(220, 5, .4);
+}
+
+#star6{
+	@include pos-scale(259, 5, .4);
+}
+
+#star7{
+	@include pos-scale(242, 49, .5);
+}
+
+#star8{
+	@include pos-scale(270, 64, .25);
+}
+
+#star9{
+	@include pos-scale(222, 63, .25);
+}
+
+#star10{
+	@include pos-scale(43, 56, .25);
+}
+
+#star11{
+	@include pos-scale(9, 67, .35);
+}
+
+#star12{
+	@include pos-scale(9, 40, .25);
+}
+
+
+.ball{
+	transform-origin: 50% 0;
+	@include pos-scale-rotate(0, -265, .5, 0);
+
+}
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 300px;
+	height: 250px;
+}
+
