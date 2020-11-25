@@ -17,9 +17,9 @@ function start() {
 	// tl.to(".ball", .4, {rotation:-1, ease:Linear.easeNone})
 
 	tl.add("ball-up");
-	tl.to(".ball", .6, { y: "-=250", ease: Power2.easeOut }, "ball-up");
+	tl.to(".ball", .5, { y: "-=250", ease: Power1.easeOut }, "ball-up");
 
-	tl.from([".red-bar", ".logo", "#logo_trim"], .6, { y: "+=130", ease: Power2.easeOut }, "ball-up");
+	tl.from([".red-bar", ".logo", "#logo_trim"], .5, { y: "+=130", ease: Power1.easeOut }, "ball-up");
 	tl.from(".coke", .3, { opacity: 0, y: "+=150", ease: Power2.easeOut }, "ball-up");
 
 	tl.add(fromSouth("#t1a"), "+=.5");
@@ -30,7 +30,7 @@ function start() {
 	tl.add("logo", "+=.5");
 	tl.to("#logo_trim img", .4, { y: "-=40" }, "logo");
 	tl.add(fromSouth("#cta"), "logo");
-	tl.from("#cta .cta", .3, { opacity: 0, x: "-=8" }, "logo");
+	tl.from("#cta .chev", .3, { opacity: 0, x: "-=8", ease: Back.easeOut }, "+=.1");
 }
 
 function starRange(from, to) {
