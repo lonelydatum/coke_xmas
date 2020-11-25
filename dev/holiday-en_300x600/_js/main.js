@@ -5,21 +5,21 @@ function start(){
 	const tl = new TimelineMax()
 	tl.set(".frame1", {opacity:1})
 
-	setMask("#logo_trim")
+	
 	starRange(1, 12)
 	TweenLite.to( ".star", 1, {opacity:1, delay:3} )
 
-	tl.from(".ball", .6, {y:"-=250", rotation:4, ease:Back.easeOut})
+	tl.from(".ball", .9, {y:"-=470", rotation:3, ease:Back.easeOut})
 	
 	tl.to(".ball", .5, {rotation:-2, ease:Linear.easeNone})
 	tl.to(".ball", .5, {rotation:1, ease:Linear.easeNone})
 	
 
 	tl.add("ball-up")
-	tl.to(".ball", .5, {y:"-=250", ease:Power1.easeOut}, "ball-up")
+	tl.to(".ball", .5, {y:"-=500", ease:Power1.easeOut}, "ball-up")
 	
 
-	tl.from([".red-bar", ".logo", "#logo_trim"], .5, {y:"+=130", ease:Power1.easeOut}, "ball-up")
+	tl.from([".red-bar"], .5, {y:"+=300", ease:Power1.easeOut}, "ball-up")
 	tl.from(".coke", .3, {opacity:0, y:"+=150", ease:Power2.easeOut}, "ball-up")
 	
 
@@ -32,7 +32,7 @@ function start(){
 
 
 	tl.add("logo", "+=.5")
-	tl.to( "#logo_trim img", .4, {y:"-=40"}, "logo" )
+	
 	tl.add( fromSouth("#cta"), "logo" )
 	tl.from("#cta .chev", .3, {opacity:0, x:"-=8", ease:Back.easeOut}, "+=.1")
 	
