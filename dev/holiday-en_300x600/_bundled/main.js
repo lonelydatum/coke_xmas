@@ -33,7 +33,7 @@ function starRange(from, to) {
 
 function star(index) {
 	var tl = new TimelineMax({ repeat: 21, yoyo: true });
-	tl.to("#star" + index, .5, { scale: "-=.15", ease: Power2.easeIn });
+	tl.to("#star" + index, .5, { scale: "-=.15", ease: Power1.easeIn });
 	return tl;
 }
 
@@ -61,12 +61,12 @@ function start() {
 	var tl = new TimelineMax();
 	tl.set(".frame1", { opacity: 1 });
 
-	(0, _commonJsCommonJs.starRange)(1, 12);
+	(0, _commonJsCommonJs.starRange)(1, 13);
 	TweenLite.to(".star", 1, { opacity: 1, delay: 3 });
 
-	tl.from(".ball", .9, { y: "-=470", rotation: 3, ease: Back.easeOut });
+	tl.from(".ball", .9, { y: "-=470", rotation: 2, ease: Back.easeOut });
 
-	tl.to(".ball", .5, { rotation: -2, ease: Linear.easeNone });
+	tl.to(".ball", .5, { rotation: -1, ease: Linear.easeNone });
 	tl.to(".ball", .5, { rotation: 1, ease: Linear.easeNone });
 
 	tl.add("ball-up");

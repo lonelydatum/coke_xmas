@@ -23,7 +23,7 @@ function starRange(from, to){
 
 function star(index){	
 	const tl = new TimelineMax({repeat:21, yoyo:true})
-	tl.to(`#star${index}`, .5, {scale:"-=.15", ease:Power2.easeIn})
+	tl.to(`#star${index}`, .5, {scale:"-=.15", ease:Power1.easeIn})
 	return tl
 }
 
