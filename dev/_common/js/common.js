@@ -12,18 +12,19 @@ function fromSouth(dom){
 	return tl
 }
 
-function starRange(from, to){
+function starRange(from, to, scale=.3){
 	const tl = new TimelineMax()
 	for(let i=from; i<=to; i++){
 		const delay = Math.random()*.6
-		tl.add( star(i), 0 );
+		tl.add( star(i, scale), 0 );
 	}
 	return tl
 }
 
-function star(index){	
-	const tl = new TimelineMax({repeat:21, yoyo:true})
-	tl.to(`#star${index}`, .5, {scale:"-=.15", ease:Power1.easeIn})
+function star(index, scale=.2){	
+	console.log(scale);
+	const tl = new TimelineMax({repeat:17, yoyo:true})
+	tl.to(`#star${index}`, .5, {scale:`-=${scale}`, ease:Power1.easeIn})
 	return tl
 }
 

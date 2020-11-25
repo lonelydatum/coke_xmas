@@ -6,7 +6,7 @@ function start(){
 	tl.set(".frame1", {opacity:1})
 
 	
-	starRange(1, 13)
+	starRange(1, 13, .1)
 	TweenLite.to( ".star", 1, {opacity:1, delay:3} )
 
 	tl.from(".ball", .9, {y:"-=470", rotation:2, ease:Back.easeOut})
