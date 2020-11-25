@@ -10,10 +10,10 @@ function start() {
 	starRange(1, 12);
 	TweenLite.to(".star", 1, { opacity: 1, delay: 3 });
 
-	tl.from(".ball", .7, { y: "-=250", rotation: 3, ease: Back.easeOut });
+	tl.from(".ball", .6, { y: "-=250", rotation: 4, ease: Back.easeOut });
 
-	tl.to(".ball", .4, { rotation: -3, ease: Linear.easeNone });
-	tl.to(".ball", .4, { rotation: 2, ease: Linear.easeNone });
+	tl.to(".ball", .5, { rotation: -2, ease: Linear.easeNone });
+	tl.to(".ball", .5, { rotation: 1, ease: Linear.easeNone });
 	// tl.to(".ball", .4, {rotation:-1, ease:Linear.easeNone})
 
 	tl.add("ball-up");
