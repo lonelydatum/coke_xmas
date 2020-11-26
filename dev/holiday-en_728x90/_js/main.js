@@ -6,6 +6,8 @@ function start(){
 	tl.set(".frame1", {opacity:1})
 
 
+	setMask("#logo_trim")
+
 	
 	
 	starRange(1, 8, .1)
@@ -27,14 +29,16 @@ function start(){
 	
 
 	
-	tl.add( fromSouth("#t1a"), "+=.4" )
+	tl.add( fromSouth("#t1a"), "+=.7" )
 	
 	
 	tl.add( fromSouth("#t1b"), "+=0" )
-	tl.add( fromSouth("#t2a"), "+=.7" )
+	tl.add( fromSouth("#t2a"), "+=.9" )
 
-	tl.from([".red-bar"], .6, {x:"-=50%", ease:Power3.easeOut}, "+=.3")
-	
+	tl.add("redbar", "+=.2")
+	tl.from([".red-bar"], .6, {x:"-=50%", ease:Power3.easeOut}, "redbar")
+	tl.from(["#logo_trim"], .6, {x:"-=50%", ease:Power3.easeOut}, "redbar")
+	tl.to("#logo_trim img", .5, {y:"-=33"}, "+=1")
 
 	tl.add("logo", "+=.2")
 	

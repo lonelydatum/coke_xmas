@@ -29,7 +29,7 @@ function star(index, scale=.2){
 }
 
 function setMask(dom){
-	console.log(dom);
+	
 	const domImg = `${dom} img`
 	const w = document.querySelector(domImg).offsetWidth / 2
 	const h = document.querySelector(domImg).offsetHeight / 2

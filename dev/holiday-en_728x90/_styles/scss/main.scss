@@ -30,7 +30,9 @@
 	}
 }
 
-
+#logo_trim{
+	@include pos(0, 32);
+}
 
 
 #t2a{

@@ -286,6 +286,17 @@ sup {
   position: absolute;
 }
 
+#logo_trim {
+  -webkit-transform: translate(0px, 32px);
+  -ms-transform: translate(0px, 32px);
+  transform: translate(0px, 32px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
 #t2a {
   -webkit-transform: translate(0px, 72px);
   -ms-transform: translate(0px, 72px);

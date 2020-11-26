@@ -43,7 +43,7 @@ function star(index) {
 }
 
 function setMask(dom) {
-	console.log(dom);
+
 	var domImg = dom + ' img';
 	var w = document.querySelector(domImg).offsetWidth / 2;
 	var h = document.querySelector(domImg).offsetHeight / 2;
