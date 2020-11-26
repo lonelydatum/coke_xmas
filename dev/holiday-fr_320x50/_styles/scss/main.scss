@@ -21,17 +21,17 @@
 }
 
 #cta{
-	@include pos(0, 21);
+	@include pos(0, 19);
 	.cta{
 		@include pos-scale(0, 0, .5);
 	}
 	.chev{
-		@include pos-scale(309, 0, .5);
+		@include pos-scale(0, 3, .5);
 	}
 }
 
 #logo{
-	@include pos(262, 19);
+	@include pos(0, 17);
 }
 
 
@@ -63,7 +63,12 @@
 }
 
 #star5{
-	@include pos-scale(-8, 3, 0.2);
+	@include pos-scale(-9, 3, 0.18);
+}
+
+
+#star6{
+	@include pos-scale(-17, 2, 0.16);
 }
 
 

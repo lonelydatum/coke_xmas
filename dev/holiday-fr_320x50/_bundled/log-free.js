@@ -68,7 +68,7 @@ function start() {
 
 	(0, _commonJsCommonJs.setMask)("#logo");
 
-	(0, _commonJsCommonJs.starRange)(1, 8, .1);
+	(0, _commonJsCommonJs.starRange)(1, 7, .1);
 	TweenLite.to(".star", 1, { opacity: 1, delay: 1 });
 
 	tl.add((0, _commonJsCommonJs.fromSouth)("#t1a"), "+=.4");

@@ -8,7 +8,7 @@ function start(){
 	setMask("#logo")
 	
 	
-	starRange(1, 8, .1)
+	starRange(1, 7, .1)
 	TweenLite.to( ".star", 1, {opacity:1, delay:1} )
 	
 

@@ -17,16 +17,16 @@
 }
 
 #t1b{
-	@include pos(0, 40);
+	@include pos(0, 33);
 }
 
 #cta{
-	@include pos(0, 39);
+	@include pos(0, 32);
 	.cta{
 		@include pos-scale(0, 1, .5);
 	}
 	.chev{
-		@include pos-scale(706, 0, .5);
+		@include pos-scale(0, 8, .5);
 	}
 }
 
@@ -36,7 +36,7 @@
 
 
 #t2a{
-	@include pos(0, 72);
+	@include pos(0, 62);
 }
 
 
@@ -55,7 +55,7 @@
 }
 
 #star4{
-	@include pos-scale(46, 21, .13);
+	@include pos-scale(33, 21, .13);
 }
 
 #star5{
@@ -64,6 +64,10 @@
 
 #star6{
 	@include pos-scale(255, 28, .14);
+}
+
+#star7{
+	@include pos-scale(263, -12, .2);
 }
 
 .white{

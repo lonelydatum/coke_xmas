@@ -254,9 +254,9 @@ sup {
 }
 
 #cta {
-  -webkit-transform: translate(0px, 21px);
-  -ms-transform: translate(0px, 21px);
-  transform: translate(0px, 21px);
+  -webkit-transform: translate(0px, 19px);
+  -ms-transform: translate(0px, 19px);
+  transform: translate(0px, 19px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -276,9 +276,9 @@ sup {
 }
 
 #cta .chev {
-  -webkit-transform: translate(309px, 0px) scale(0.5, 0.5);
-  -ms-transform: translate(309px, 0px) scale(0.5, 0.5);
-  transform: translate(309px, 0px) scale(0.5, 0.5);
+  -webkit-transform: translate(0px, 3px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 3px) scale(0.5, 0.5);
+  transform: translate(0px, 3px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -287,9 +287,9 @@ sup {
 }
 
 #logo {
-  -webkit-transform: translate(262px, 19px);
-  -ms-transform: translate(262px, 19px);
-  transform: translate(262px, 19px);
+  -webkit-transform: translate(0px, 17px);
+  -ms-transform: translate(0px, 17px);
+  transform: translate(0px, 17px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -353,9 +353,20 @@ sup {
 }
 
 #star5 {
-  -webkit-transform: translate(-8px, 3px) scale(0.2, 0.2);
-  -ms-transform: translate(-8px, 3px) scale(0.2, 0.2);
-  transform: translate(-8px, 3px) scale(0.2, 0.2);
+  -webkit-transform: translate(-9px, 3px) scale(0.18, 0.18);
+  -ms-transform: translate(-9px, 3px) scale(0.18, 0.18);
+  transform: translate(-9px, 3px) scale(0.18, 0.18);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+#star6 {
+  -webkit-transform: translate(-17px, 2px) scale(0.16, 0.16);
+  -ms-transform: translate(-17px, 2px) scale(0.16, 0.16);
+  transform: translate(-17px, 2px) scale(0.16, 0.16);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

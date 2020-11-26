@@ -95,7 +95,7 @@ function start() {
 	tl.from("#cta .chev", .3, { opacity: 0, x: "-=8", ease: Back.easeOut }, "+=0");
 }
 
-start();
+sstart();
 
 module.exports = {};
 
