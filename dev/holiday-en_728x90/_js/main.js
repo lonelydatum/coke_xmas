@@ -18,8 +18,6 @@ function start(){
 	
 	tl.to(".ball", .3, {rotation:-1, ease:Linear.easeNone})
 	tl.to(".ball", .3, {rotation:1, ease:Linear.easeNone})
-	
-
 	tl.add("ball-up", "+=.5")
 	tl.to(".ball", .3, {y:"-=90", ease:Power1.easeOut}, "ball-up")
 	
@@ -38,11 +36,12 @@ function start(){
 	tl.add("redbar", "+=.2")
 	tl.from([".red-bar"], .6, {x:"-=50%", ease:Power3.easeOut}, "redbar")
 	tl.from(["#logo_trim"], .6, {x:"-=50%", ease:Power3.easeOut}, "redbar")
-	tl.to("#logo_trim img", .5, {y:"-=33"}, "+=1")
-
-	tl.add("logo", "+=.2")
 	
-	tl.add( fromSouth("#cta"), "logo" )
+	tl.to("#logo_trim img", .3, {y:"-=30"}, "+=1")
+
+	
+	
+	tl.add( fromSouth("#cta") )
 	tl.from("#cta .chev", .3, {opacity:0, x:"-=8", ease:Back.easeOut}, "+=0")
 	
 	
