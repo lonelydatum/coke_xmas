@@ -66,6 +66,8 @@ function start() {
 	var tl = new TimelineMax();
 	tl.set(".frame1", { opacity: 1 });
 
+	// return
+
 	(0, _commonJsCommonJs.starRange)(1, 13, .1);
 	TweenLite.to(".star", 1, { opacity: 1, delay: 3 });
 

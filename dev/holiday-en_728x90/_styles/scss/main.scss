@@ -1,0 +1,90 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+}
+.msk{
+	// background-color: blue;
+	overflow: hidden;
+}
+
+#t1a{
+	@include pos(0, 10);
+}
+
+#t1b{
+	@include pos(0, 40);
+}
+
+#cta{
+	@include pos(0, 39);
+	.cta{
+		@include pos-scale(0, 1, .5);
+	}
+	.chev{
+		@include pos-scale(706, 0, .5);
+	}
+}
+
+
+
+
+#t2a{
+	@include pos(0, 72);
+}
+
+
+
+
+
+#star1{
+	@include pos-scale(-8, -16, .3);
+}
+
+#star2{
+	@include pos-scale(6, 2, .13);
+}
+#star3{
+	@include pos-scale(5, 35, .2);
+}
+
+#star4{
+	@include pos-scale(46, 21, .13);
+}
+
+#star5{
+	@include pos-scale(-11, 43, .14);
+}
+
+#star6{
+	@include pos-scale(255, 28, .14);
+}
+
+.white{
+	width: 50%;
+	height: 100%;
+	background-color: white;	
+	@include pos(0, 0);
+}
+
+
+
+
+.ball{
+	transform-origin: 50% 0;
+	@include pos-scale-rotate(294, -148, .5, 0);
+	// opacity: 0;
+}
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 728px;
+	height: 90px;
+}
+

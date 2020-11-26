@@ -44,54 +44,54 @@
 
 
 #star1{
-	@include pos-scale(-53, -61, .085);
+	@include pos-scale(12, 4, .25);
 }
 
 #star2{
-	@include pos-scale(-4, -55, .06);
+	@include pos-scale(61, 9, .2);
 }
 #star3{
-	@include pos-scale(-38, -27, .06);
+	@include pos-scale(27, 38, .2);
 }
 
 #star4{
-	@include pos-scale(24, -29, .04);
+	@include pos-scale(87, 35, .13);
 }
 
 #star5{
-	@include pos-scale(85, -26, .04);
+	@include pos-scale(150, 39, .14);
 }
 
 #star6{
-	@include pos-scale(128, -58, .04);
+	@include pos-scale(193, 6, .14);
 }
 
 #star7{
-	@include pos-scale(166, -49, .055);
+	@include pos-scale(231, 15, .2);
 }
 
 #star8{
-	@include pos-scale(190, -20, .06);
+	@include pos-scale(255, 45, .2);
 }
 
 #star9{
-	@include pos-scale(171, 39, .04);
+	@include pos-scale(235, 104, .14);
 }
 
 #star10{
-	@include pos-scale(163, 99, .08);
+	@include pos-scale(228, 163, .25);
 }
 
 #star11{
-	@include pos-scale(-52, 95, .04);
+	@include pos-scale(13, 160, .14);
 }
 
 #star12{
-	@include pos-scale(-58, 57, .04);
+	@include pos-scale(7, 122, .14);
 }
 
 #star13{
-	@include pos-scale(-74, 46, .05);
+	@include pos-scale(-9, 111, .2);
 }
 
 

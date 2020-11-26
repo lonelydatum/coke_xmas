@@ -223,6 +223,10 @@ sup {
   image-rendering: -webkit-optimize-contrast;
 }
 
+.star polygon {
+  fill: #F40009;
+}
+
 .msk {
   overflow: hidden;
 }
@@ -305,9 +309,9 @@ sup {
 }
 
 #star1 {
-  -webkit-transform: translate(-53px, -61px) scale(0.085, 0.085);
-  -ms-transform: translate(-53px, -61px) scale(0.085, 0.085);
-  transform: translate(-53px, -61px) scale(0.085, 0.085);
+  -webkit-transform: translate(12px, 4px) scale(0.25, 0.25);
+  -ms-transform: translate(12px, 4px) scale(0.25, 0.25);
+  transform: translate(12px, 4px) scale(0.25, 0.25);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -316,9 +320,9 @@ sup {
 }
 
 #star2 {
-  -webkit-transform: translate(-4px, -55px) scale(0.06, 0.06);
-  -ms-transform: translate(-4px, -55px) scale(0.06, 0.06);
-  transform: translate(-4px, -55px) scale(0.06, 0.06);
+  -webkit-transform: translate(61px, 9px) scale(0.2, 0.2);
+  -ms-transform: translate(61px, 9px) scale(0.2, 0.2);
+  transform: translate(61px, 9px) scale(0.2, 0.2);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -327,9 +331,9 @@ sup {
 }
 
 #star3 {
-  -webkit-transform: translate(-38px, -27px) scale(0.06, 0.06);
-  -ms-transform: translate(-38px, -27px) scale(0.06, 0.06);
-  transform: translate(-38px, -27px) scale(0.06, 0.06);
+  -webkit-transform: translate(27px, 38px) scale(0.2, 0.2);
+  -ms-transform: translate(27px, 38px) scale(0.2, 0.2);
+  transform: translate(27px, 38px) scale(0.2, 0.2);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -338,9 +342,9 @@ sup {
 }
 
 #star4 {
-  -webkit-transform: translate(24px, -29px) scale(0.04, 0.04);
-  -ms-transform: translate(24px, -29px) scale(0.04, 0.04);
-  transform: translate(24px, -29px) scale(0.04, 0.04);
+  -webkit-transform: translate(87px, 35px) scale(0.13, 0.13);
+  -ms-transform: translate(87px, 35px) scale(0.13, 0.13);
+  transform: translate(87px, 35px) scale(0.13, 0.13);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -349,9 +353,9 @@ sup {
 }
 
 #star5 {
-  -webkit-transform: translate(85px, -26px) scale(0.04, 0.04);
-  -ms-transform: translate(85px, -26px) scale(0.04, 0.04);
-  transform: translate(85px, -26px) scale(0.04, 0.04);
+  -webkit-transform: translate(150px, 39px) scale(0.14, 0.14);
+  -ms-transform: translate(150px, 39px) scale(0.14, 0.14);
+  transform: translate(150px, 39px) scale(0.14, 0.14);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -360,9 +364,9 @@ sup {
 }
 
 #star6 {
-  -webkit-transform: translate(128px, -58px) scale(0.04, 0.04);
-  -ms-transform: translate(128px, -58px) scale(0.04, 0.04);
-  transform: translate(128px, -58px) scale(0.04, 0.04);
+  -webkit-transform: translate(193px, 6px) scale(0.14, 0.14);
+  -ms-transform: translate(193px, 6px) scale(0.14, 0.14);
+  transform: translate(193px, 6px) scale(0.14, 0.14);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -371,9 +375,9 @@ sup {
 }
 
 #star7 {
-  -webkit-transform: translate(166px, -49px) scale(0.055, 0.055);
-  -ms-transform: translate(166px, -49px) scale(0.055, 0.055);
-  transform: translate(166px, -49px) scale(0.055, 0.055);
+  -webkit-transform: translate(231px, 15px) scale(0.2, 0.2);
+  -ms-transform: translate(231px, 15px) scale(0.2, 0.2);
+  transform: translate(231px, 15px) scale(0.2, 0.2);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -382,9 +386,9 @@ sup {
 }
 
 #star8 {
-  -webkit-transform: translate(190px, -20px) scale(0.06, 0.06);
-  -ms-transform: translate(190px, -20px) scale(0.06, 0.06);
-  transform: translate(190px, -20px) scale(0.06, 0.06);
+  -webkit-transform: translate(255px, 45px) scale(0.2, 0.2);
+  -ms-transform: translate(255px, 45px) scale(0.2, 0.2);
+  transform: translate(255px, 45px) scale(0.2, 0.2);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -393,9 +397,9 @@ sup {
 }
 
 #star9 {
-  -webkit-transform: translate(171px, 39px) scale(0.04, 0.04);
-  -ms-transform: translate(171px, 39px) scale(0.04, 0.04);
-  transform: translate(171px, 39px) scale(0.04, 0.04);
+  -webkit-transform: translate(235px, 104px) scale(0.14, 0.14);
+  -ms-transform: translate(235px, 104px) scale(0.14, 0.14);
+  transform: translate(235px, 104px) scale(0.14, 0.14);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -404,9 +408,9 @@ sup {
 }
 
 #star10 {
-  -webkit-transform: translate(163px, 99px) scale(0.08, 0.08);
-  -ms-transform: translate(163px, 99px) scale(0.08, 0.08);
-  transform: translate(163px, 99px) scale(0.08, 0.08);
+  -webkit-transform: translate(228px, 163px) scale(0.25, 0.25);
+  -ms-transform: translate(228px, 163px) scale(0.25, 0.25);
+  transform: translate(228px, 163px) scale(0.25, 0.25);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -415,9 +419,9 @@ sup {
 }
 
 #star11 {
-  -webkit-transform: translate(-52px, 95px) scale(0.04, 0.04);
-  -ms-transform: translate(-52px, 95px) scale(0.04, 0.04);
-  transform: translate(-52px, 95px) scale(0.04, 0.04);
+  -webkit-transform: translate(13px, 160px) scale(0.14, 0.14);
+  -ms-transform: translate(13px, 160px) scale(0.14, 0.14);
+  transform: translate(13px, 160px) scale(0.14, 0.14);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -426,9 +430,9 @@ sup {
 }
 
 #star12 {
-  -webkit-transform: translate(-58px, 57px) scale(0.04, 0.04);
-  -ms-transform: translate(-58px, 57px) scale(0.04, 0.04);
-  transform: translate(-58px, 57px) scale(0.04, 0.04);
+  -webkit-transform: translate(7px, 122px) scale(0.14, 0.14);
+  -ms-transform: translate(7px, 122px) scale(0.14, 0.14);
+  transform: translate(7px, 122px) scale(0.14, 0.14);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -437,9 +441,9 @@ sup {
 }
 
 #star13 {
-  -webkit-transform: translate(-74px, 46px) scale(0.05, 0.05);
-  -ms-transform: translate(-74px, 46px) scale(0.05, 0.05);
-  transform: translate(-74px, 46px) scale(0.05, 0.05);
+  -webkit-transform: translate(-9px, 111px) scale(0.2, 0.2);
+  -ms-transform: translate(-9px, 111px) scale(0.2, 0.2);
+  transform: translate(-9px, 111px) scale(0.2, 0.2);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

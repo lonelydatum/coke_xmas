@@ -4,7 +4,7 @@ function start(){
 	TweenLite.defaultEase = Power3.easeOut
 	const tl = new TimelineMax()
 	tl.set(".frame1", {opacity:1})
-
+	
 	setMask("#logo_trim")
 	starRange(1, 12, .3)
 	TweenLite.to( ".star", 1, {opacity:1, delay:3} )

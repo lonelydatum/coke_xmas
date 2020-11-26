@@ -5,6 +5,8 @@ function start(){
 	const tl = new TimelineMax()
 	tl.set(".frame1", {opacity:1})
 
+
+	// return
 	
 	starRange(1, 13, .1)
 	TweenLite.to( ".star", 1, {opacity:1, delay:3} )
