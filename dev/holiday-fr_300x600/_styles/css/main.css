@@ -276,9 +276,9 @@ sup {
 }
 
 #cta .chev {
-  -webkit-transform: translate(199px, 0px) scale(0.5, 0.5);
-  -ms-transform: translate(199px, 0px) scale(0.5, 0.5);
-  transform: translate(199px, 0px) scale(0.5, 0.5);
+  -webkit-transform: translate(0px, 1px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 1px) scale(0.5, 0.5);
+  transform: translate(0px, 1px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -405,6 +405,7 @@ sup {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
+  display: none;
 }
 
 #star10 {
@@ -416,6 +417,7 @@ sup {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
+  display: none;
 }
 
 #star11 {
@@ -427,6 +429,7 @@ sup {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
+  display: none;
 }
 
 #star12 {
@@ -438,6 +441,7 @@ sup {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
+  display: none;
 }
 
 #star13 {

@@ -26,12 +26,14 @@
 		@include pos-scale(0, 1, .5);
 	}
 	.chev{
-		@include pos-scale(199, 0, .5);
+		@include pos-scale(0, 1, .5);
 	}
 }
 
 
-
+.star{
+	// border: 1px solid blue;
+}
 
 #t2a{
 	@include pos(0, 166);
@@ -76,18 +78,22 @@
 
 #star9{
 	@include pos-scale(235, 104, .14);
+	display: none;
 }
 
 #star10{
 	@include pos-scale(228, 163, .25);
+	display: none;
 }
 
 #star11{
 	@include pos-scale(13, 160, .14);
+	display: none;
 }
 
 #star12{
 	@include pos-scale(7, 122, .14);
+	display: none;
 }
 
 #star13{
