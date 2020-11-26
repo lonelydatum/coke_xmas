@@ -51,7 +51,7 @@ function start(){
 
 
 
-sstart()
+start()
 
 
 module.exports = {};
